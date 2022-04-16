@@ -27,7 +27,7 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>HI! I AM</span>
           <span>Rushikesh Desai</span>
           <span>
             Full Stack Javascript Developer with high level of experience in web designing

@@ -24,8 +24,8 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>What i can do ? for You</span>
-        <span>Skill Set</span>
+        <span style={{ color: darkMode ? "white" : "" }}>How I Can Serve?</span>
+        <span>Service</span>
        
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -42,7 +42,7 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"data visualization website"}
+            heading={"Data Visualization Apps"}
             detail={"I can Build modern web apps for data visualization."}
           />
         </motion.div>
@@ -68,7 +68,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Mobile App  Developer"}
             detail={
-              "Good Understanding for mobile app development, using React Native"
+              "Mobile App Development, using React Native"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
