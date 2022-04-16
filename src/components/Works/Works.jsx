@@ -21,19 +21,10 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            
           </span>
-          <span>Brands & Clients</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
+          <span>I'm Expert</span>
+          <span>Follwing Technologies</span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
@@ -54,19 +45,21 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={"https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={"https://angular.io/assets/images/logos/angular/angular.svg"} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={"https://ellipsesolutions.wpcdn-b.com/wp-content/uploads/2019/03/Microsoft-Dynamics-365-Logo-2019-300x132.png"} alt="" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+          <img src={"https://cdn.worldvectorlogo.com/logos/dot-net-core-7.svg"} alt="" />
+          
+             
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+          <img src={"https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}
