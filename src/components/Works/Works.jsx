@@ -23,7 +23,7 @@ const Works = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
             
           </span>
-          <span>I'M Expert</span>
+          <span>I'M Expert In</span>
           <span>Follwing Technologies</span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
